@@ -303,6 +303,20 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
+                "Am9(no1)  test remote merging", 
+                "Am9(no1)<br><img src=\"Am9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "D+{kMJ.iPA", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no1)"
+            ]
+        },
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
                 "Am9(no5)", 
                 "Am9(no5)<br><img src=\"Am9-no5.png\">"
             ], 
