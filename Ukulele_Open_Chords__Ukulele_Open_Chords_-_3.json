@@ -620,7 +620,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "D#maj9(no1)", 
+                "D#maj9(no1) foo biz test", 
                 "D#maj9(no1)<br><img src=\"Dsharpmaj9-no1.png\">"
             ], 
             "flags": 0, 
