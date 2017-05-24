@@ -112,8 +112,122 @@
         "Asharpmadd9.png", 
         "Cmaj9-no5.png"
     ], 
+    "mid": "1495500595582", 
     "name": "Ukulele Open Chords::Ukulele Open Chords - 3. Advanced", 
     "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "e0b59e14-3fb9-11e7-9bfd-0025bcdd42f8", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.card1 { background-color: #ffffff;text-align: left }", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "FBSource (ICCH)", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}<br>\n<br>\nSource: {{Source}}<br>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Forward", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "347b6e40-4064-11e7-b225-0025bcdd42f8", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "ANZCA", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}\n<div style='font-family: Arial; font-size: 20px;'>{{Front}}</div>\n"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
@@ -238,20 +352,6 @@
                 "m9(no1)"
             ]
         }, 
-          {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "Am9(no1)  test remote merging number 2", 
-                "Am9(no1)<br><img src=\"Am9-no1.png\">"
-            ], 
-            "flags": 0, 
-            "guid": "D+{kMJ.iPA", 
-            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
-            "tags": [
-                "m9(no1)"
-            ]
-        },
         {
             "__type__": "Note", 
             "data": "", 
@@ -980,6 +1080,31 @@
             "tags": [
                 "mmaj7"
             ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "test add card", 
+                "different card type", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "s)cN|*tl~S", 
+            "note_model_uuid": "e0b59e14-3fb9-11e7-9bfd-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "test add card type two", 
+                "yes"
+            ], 
+            "flags": 0, 
+            "guid": "DA_d`fLaT7", 
+            "note_model_uuid": "347b6e40-4064-11e7-b225-0025bcdd42f8", 
+            "tags": []
         }
     ]
 }
