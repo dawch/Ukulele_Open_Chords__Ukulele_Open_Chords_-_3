@@ -681,8 +681,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "D#maj9(no1) foo&nbsp;", 
-                "D#maj9(no1) dfsfsdasdf<br /><img src=\"Dsharpmaj9-no1.png\" />"
+                "D#maj9(no1) foo biz test", 
+                "D#maj9(no1)<br><img src=\"Dsharpmaj9-no1.png\">"
             ], 
             "flags": 0, 
             "guid": "EPNpWXs$G:", 
