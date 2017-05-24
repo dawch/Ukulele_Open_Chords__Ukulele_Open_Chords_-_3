@@ -1,0 +1,971 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "6257b6eb-403a-11e7-baec-0025bcdd42f8", 
+    "deck_config_uuid": "e0b36f42-3fb9-11e7-b50e-0025bcdd42f8", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "e0b36f42-3fb9-11e7-b50e-0025bcdd42f8", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "Fmaj9-no1.png", 
+        "F9-no5.png", 
+        "G9-no1.png", 
+        "Asharpm7b5.png", 
+        "Dsharp9-no1.png", 
+        "Aadd9.png", 
+        "Am9-no5.png", 
+        "Gadd9.png", 
+        "Amadd9.png", 
+        "Amadd9-2.png", 
+        "Gsharp9-no5.png", 
+        "Emmaj7.png", 
+        "Gmmaj7.png", 
+        "Amaj9-no1.png", 
+        "Csharpmadd9.png", 
+        "Csharpmmaj7-2.png", 
+        "Fmaj9-no5.png", 
+        "Fm9-no1.png", 
+        "Cmaj9-no1.png", 
+        "Fsharp9-no1.png", 
+        "Dsharpadd9.png", 
+        "Fadd9.png", 
+        "Am9-no5-2.png", 
+        "C9-no5.png", 
+        "Fsharpm9-no5.png", 
+        "Bm7b5.png", 
+        "Gsharpmaj9-no5.png", 
+        "Gm9-no1.png", 
+        "Dsharpmaj9-no1.png", 
+        "Em7b5.png", 
+        "Asharpm9-no1.png", 
+        "Csharpmmaj7.png", 
+        "C9-no1.png", 
+        "Asharpmmaj7.png", 
+        "A9-no5.png", 
+        "Gsharpmaj9-no5-2.png", 
+        "Csharpm9-no1.png", 
+        "Fsharpm9-no1.png", 
+        "Gmadd9.png", 
+        "Em9-no1.png", 
+        "Amaj9-no5.png", 
+        "Gmaj9-no1.png", 
+        "Gm7b5.png", 
+        "Cadd9.png", 
+        "Gsharpmmaj7.png", 
+        "Fsharpmadd9.png", 
+        "Aadd9-2.png", 
+        "Asharpm9-no5.png", 
+        "Emadd9.png", 
+        "A9-no1.png", 
+        "Csharpm7b5.png", 
+        "Dsharp9-no5.png", 
+        "Am9-no1.png", 
+        "Ammaj7.png", 
+        "Csharpm9-no5.png", 
+        "Asharpmadd9.png", 
+        "Cmaj9-no5.png"
+    ], 
+    "name": "Ukulele Open Chords::Ukulele Open Chords - 3. Advanced", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A9(no1)", 
+                "A9(no1)<br><img src=\"A9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "tW,T+MmEGU", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A9(no5)", 
+                "A9(no5)<br><img src=\"A9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "ol1J?i0p,Z", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Aadd9", 
+                "Aadd9<br><img src=\"Aadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "Lr3eRrI9dR", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "add9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Aadd9 (2)", 
+                "Aadd9 (2)<br><img src=\"Aadd9-2.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "Bu#4|[hRJJ", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "add9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Am9(no1)", 
+                "Am9(no1)<br><img src=\"Am9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "D+{kMJ.iPA", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Am9(no5)", 
+                "Am9(no5)<br><img src=\"Am9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "hGW]poh$w4", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Am9(no5) (2)", 
+                "Am9(no5) (2)<br><img src=\"Am9-no5-2.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "ph%_sdMX(5", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Amadd9", 
+                "Amadd9<br><img src=\"Amadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "o+6xWrP*#R", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "madd9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Amadd9 (2)", 
+                "Amadd9 (2)<br><img src=\"Amadd9-2.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "gB+JEP=cn%", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "madd9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Amaj9(no1)", 
+                "Amaj9(no1)<br><img src=\"Amaj9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "E=@HK*zhJ}", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Amaj9(no5)", 
+                "Amaj9(no5)<br><img src=\"Amaj9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "c#bf|hohib", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ammaj7", 
+                "Ammaj7<br><img src=\"Ammaj7.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "eq/tOOv>]z", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "mmaj7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A#m7b5", 
+                "A#m7b5<br><img src=\"Asharpm7b5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "B5oH|/KDs@", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m7b5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A#m9(no1)", 
+                "A#m9(no1)<br><img src=\"Asharpm9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "DAHr/V3)o,", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A#m9(no5)", 
+                "A#m9(no5)<br><img src=\"Asharpm9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "zlnm}C>D-w", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A#madd9", 
+                "A#madd9<br><img src=\"Asharpmadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "F:&gr=NmV#", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "madd9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "A#mmaj7", 
+                "A#mmaj7<br><img src=\"Asharpmmaj7.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "QY!ee@oOyW", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "mmaj7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Bm7b5", 
+                "Bm7b5<br><img src=\"Bm7b5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "k^AZtq3<0B", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m7b5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "C9(no1)", 
+                "C9(no1)<br><img src=\"C9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "D}LF:yQ6U*", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "C9(no5)", 
+                "C9(no5)<br><img src=\"C9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "uLPr<7Momz", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Cadd9", 
+                "Cadd9<br><img src=\"Cadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "d-eAzHIF`E", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "add9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Cmaj9(no1)", 
+                "Cmaj9(no1)<br><img src=\"Cmaj9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "L]dSzL^}oB", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Cmaj9(no5)", 
+                "Cmaj9(no5)<br><img src=\"Cmaj9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "D%qcxzLfRN", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "C#m7b5", 
+                "C#m7b5<br><img src=\"Csharpm7b5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "I5H{dG<Hoj", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m7b5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "C#m9(no1)", 
+                "C#m9(no1)<br><img src=\"Csharpm9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "EA=f6mKs|S", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "C#m9(no5)", 
+                "C#m9(no5)<br><img src=\"Csharpm9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "ragYwpoZ@z", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "C#madd9", 
+                "C#madd9<br><img src=\"Csharpmadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "G-Ldua#/.N", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "madd9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "C#mmaj7", 
+                "C#mmaj7<br><img src=\"Csharpmmaj7.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "d=5TE@~y/4", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "mmaj7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "C#mmaj7 (2)", 
+                "C#mmaj7 (2)<br><img src=\"Csharpmmaj7-2.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "sA6qsJ:ky[", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "mmaj7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "D#9(no1)", 
+                "D#9(no1)<br><img src=\"Dsharp9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "KNw0qf`_g)", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "D#9(no5)", 
+                "D#9(no5)<br><img src=\"Dsharp9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "CHt#{Us7rJ", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "D#add9", 
+                "D#add9<br><img src=\"Dsharpadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "NmhBf~bL~<", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "add9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "D#maj9(no1)", 
+                "D#maj9(no1)<br><img src=\"Dsharpmaj9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "EPNpWXs$G:", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Em7b5", 
+                "Em7b5<br><img src=\"Em7b5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "P)R:o}ca1}", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m7b5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Em9(no1)", 
+                "Em9(no1)<br><img src=\"Em9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "FFo{,qr9k-", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Emadd9", 
+                "Emadd9<br><img src=\"Emadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "y;pC#7G:tU", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "madd9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Emmaj7", 
+                "Emmaj7<br><img src=\"Emmaj7.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "B@,L(5NBA_", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "mmaj7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "F9(no5)", 
+                "F9(no5)<br><img src=\"F9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "v@;`$=gc7/", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Fadd9", 
+                "Fadd9<br><img src=\"Fadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "u95)_HwACX", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "add9", 
+                "insong"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Fm9(no1)", 
+                "Fm9(no1)<br><img src=\"Fm9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "Ls>!xq>/M<", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Fmaj9(no1)", 
+                "Fmaj9(no1)<br><img src=\"Fmaj9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "EfRTGX%tfR", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Fmaj9(no5)", 
+                "Fmaj9(no5)<br><img src=\"Fmaj9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "g4#*G[#~|)", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "F#9(no1)", 
+                "F#9(no1)<br><img src=\"Fsharp9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "ERA`Q]m1[V", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "F#m9(no1)", 
+                "F#m9(no1)<br><img src=\"Fsharpm9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "K<8mDPyuM^", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "F#m9(no5)", 
+                "F#m9(no5)<br><img src=\"Fsharpm9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "L@T3W]2g<2", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "F#madd9", 
+                "F#madd9<br><img src=\"Fsharpmadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "Id+aCvJ!AR", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "madd9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "G9(no1)", 
+                "G9(no1)<br><img src=\"G9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "qT%weNF^:h", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Gadd9", 
+                "Gadd9<br><img src=\"Gadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "k$qipp/X!g", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "add9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Gm7b5", 
+                "Gm7b5<br><img src=\"Gm7b5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "jgPQj99,al", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m7b5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Gm9(no1)", 
+                "Gm9(no1)<br><img src=\"Gm9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "MZ1N#C@S3v", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "m9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Gmadd9", 
+                "Gmadd9<br><img src=\"Gmadd9.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "gx%S1U}C~s", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "madd9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Gmaj9(no1)", 
+                "Gmaj9(no1)<br><img src=\"Gmaj9-no1.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "wE3Fr&}GQ:", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no1)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Gmmaj7", 
+                "Gmmaj7<br><img src=\"Gmmaj7.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "Ox1P?kjF-p", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "mmaj7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "G#9(no5)", 
+                "G#9(no5)<br><img src=\"Gsharp9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "I]SX@W,?It", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "G#maj9(no5)", 
+                "G#maj9(no5)<br><img src=\"Gsharpmaj9-no5.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "f$OYL%(1z", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "G#maj9(no5) (2)", 
+                "G#maj9(no5) (2)<br><img src=\"Gsharpmaj9-no5-2.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "zE[A5V1qVJ", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "maj9(no5)"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "G#mmaj7", 
+                "G#mmaj7<br><img src=\"Gsharpmmaj7.png\">"
+            ], 
+            "flags": 0, 
+            "guid": "QdH$H=mJh3", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "mmaj7"
+            ]
+        }
+    ]
+}
