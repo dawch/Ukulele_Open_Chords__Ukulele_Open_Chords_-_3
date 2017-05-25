@@ -1105,6 +1105,18 @@
             "guid": "DA_d`fLaT7", 
             "note_model_uuid": "347b6e40-4064-11e7-b225-0025bcdd42f8", 
             "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "dgsdsg", 
+                "szddsgfs"
+            ], 
+            "flags": 0, 
+            "guid": "g6xsQVaCQ~", 
+            "note_model_uuid": "347b6e40-4064-11e7-b225-0025bcdd42f8", 
+            "tags": []
         }
     ]
 }
