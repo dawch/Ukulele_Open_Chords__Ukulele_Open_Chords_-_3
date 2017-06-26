@@ -1117,6 +1117,19 @@
             "guid": "g6xsQVaCQ~", 
             "note_model_uuid": "347b6e40-4064-11e7-b225-0025bcdd42f8", 
             "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "test 26 jun 1144", 
+                "test", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nIrHR@dw6U", 
+            "note_model_uuid": "e0b59e14-3fb9-11e7-9bfd-0025bcdd42f8", 
+            "tags": []
         }
     ]
 }
